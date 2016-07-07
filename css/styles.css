@@ -76,15 +76,16 @@ h6 {
   background-color: #D7405D;
   border-color: #D7405D; }
 
-.btn-small {
-  padding: 8px 40px; }
 
 .btn-large {
   padding: 15px 40px; }
 
 .btn-margin-right {
   margin-right: 20px; }
-
+  
+.btn-margin-left {
+  margin-left: 20px; }
+  
 section.intro, section.features-extra, section.sign-up {
   background: #fff; }
 
@@ -499,13 +500,13 @@ Features-stack
     border-bottom: none; }
   .features .ipad-wrap {
     width: 706px;
-    height: 1002px;
+    height: 1330px;
     background: url("../img/ipad-device.png") no-repeat center center;
     z-index: 1; }
   .features .iphone-wrap {
     width: 304px;
-    height: 620px;
-    background: url("../img/iphone6.png") no-repeat center center;
+    height: 980px;
+    background: url("../img/iphone-device.png") no-repeat center center;
     position: absolute;
     left: 530px;
     bottom: 129px;
@@ -521,22 +522,6 @@ Features-stack
 .devices {
   position: relative; }
 
-/* ==========================================================================
-.features-extra
-========================================================================== */
-.features-extra {
-  position: relative;
-  z-index: 3; }
-  .features-extra .btn {
-    margin-top: 20px; }
-  .features-extra .macbook-wrap {
-    position: absolute;
-    width: 916px;
-    height: 540px;
-    background: url("../img/macbook-pro.png") no-repeat center center;
-    top: 114px;
-    z-index: 4;
-    left: 50%; }
 
 /* ==========================================================================
 .hero-strip
@@ -640,95 +625,9 @@ Features-stack
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
     color: #3D4351; }
 
-/* ==========================================================================
-.testimonial-slider
-========================================================================== */
-.testimonial-slider {
-  background: url("../img/testimonials-bg.jpg") no-repeat center center;
-  background-size: cover; }
-  .testimonial-slider .avatar {
-    width: 82px;
-    height: 82px;
-    margin: 0 auto;
-    vertical-align: middle;
-    overflow: hidden;
-    border-radius: 50%;
-    border: solid 3px #fff;
-    background-color: #fff; }
-    .testimonial-slider .avatar img {
-      width: 82px;
-      height: auto; }
-  .testimonial-slider h2 {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 300;
-    font-style: italic;
-    margin: 30px 0; }
-  .testimonial-slider p {
-    color: #ACB1B4;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
 
-/* ==========================================================================
-Sign up form
-========================================================================== */
-.sign-up .signup-form .sign-up-btn {
-  padding: 15px 0;
-  border-radius: 3px;
-  width: 80%;
-  font-size: 13px; }
-.sign-up .signup-form .form-input-group {
-  width: 80%;
-  height: 55px;
-  margin: 0 auto 10px;
-  border-radius: 5px;
-  border: solid 1px #E6E9EA;
-  text-align: left;
-  position: relative; }
-  .sign-up .signup-form .form-input-group i {
-    color: #FF5274;
-    font-size: 14px; }
-  .sign-up .signup-form .form-input-group i:after {
-    content: "";
-    height: 30px;
-    width: 1px;
-    border-right: solid 1px #E6E9EA;
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
-  .sign-up .signup-form .form-input-group i.fa-lock {
-    font-size: 18px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-left: 20px; }
-  .sign-up .signup-form .form-input-group i.fa-envelope {
-    font-size: 14px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-left: 20px; }
-  .sign-up .signup-form .form-input-group input {
-    padding-left: 68px;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    border: none; }
-  .sign-up .signup-form .form-input-group input::-webkit-input-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input:-moz-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input::-moz-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
-    color: #BCC1C3; }
+
+
 
 /* ==========================================================================
 To top
@@ -760,74 +659,12 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  background-color: rgb(255,255,255);
   position: relative; }
   footer p {
-    color: #ACB1B4;
-    font-size: 13px; }
-  footer a {
-    color: #fff; }
-  footer a:hover {
-    color: #FF5274; }
-  footer ul.footer-group {
-    border-top: solid 1px #4E566C;
-    padding-top: 25px;
-    margin-bottom: 45px; }
-  footer ul.footer-group li {
-    display: inline-block; }
-  footer ul.footer-group li a {
-    font-size: 13px;
-    text-transform: uppercase; }
-  footer ul.footer-group li a:hover {
-    color: #FF5274; }
-  footer ul.footer-group li {
-    margin-right: 30px; }
-  footer ul.footer-group li:last-child {
-    margin-right: 0; }
-  footer span.fa-heart {
-    color: #ff415c;
-    font-size: 15px;
-    margin: 0 2px; }
-  footer .social-share {
-    position: absolute;
-    background-color: #373D4A;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    padding: 142px 0 0 70px; }
-    footer .social-share p {
-      color: #fff;
-      text-transform: uppercase;
-      padding-bottom: 10px; }
-    footer .social-share a.twitter-share {
-      height: 60px;
-      width: 60px;
-      background-color: #1AB4EF;
-      border-radius: 3px;
-      font-size: 22px;
-      display: inline-block;
-      text-align: center;
-      margin-right: 20px; }
-    footer .social-share a.twitter-share:hover, footer .social-share a.twitter-share:focus {
-      background-color: #1590BF; }
-    footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
-      background-color: #324C85; }
-    footer .social-share a.facebook-share {
-      height: 60px;
-      width: 60px;
-      background-color: #3B5898;
-      border-radius: 3px;
-      font-size: 22px;
-      display: inline-block;
-      text-align: center; }
-    footer .social-share a {
-      color: #fff; }
-    footer .social-share a:hover {
-      color: #fff; }
-    footer .social-share a i {
-      margin-top: 20px; }
-  footer .footer-links {
-    margin: 120px 0 120px 0; }
+    color: rgb(10,10,10);
+    font-size: 16px; }
+ 
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
