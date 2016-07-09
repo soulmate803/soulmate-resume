@@ -37,8 +37,17 @@ h5 {
 h6 {
   font-size: 24px; 
   font-weight:bold;}
-
   
+h7{
+	
+  font-size: 13px;
+  color: rgba(28, 54, 83, 0.6);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom:7px;
+}
+
+
 
 .btn {
   font-size: 13px;
@@ -579,6 +588,7 @@ Features-stack
     height: auto;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out; }
+
   .blog h2 {
     font-size: 11px;
     color: #ACB1B4;
@@ -625,35 +635,16 @@ Features-stack
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
     color: #3D4351; }
 
-
-
-
-
 /* ==========================================================================
-To top
+assets
 ========================================================================== */
-.to-top {
-  height: 60px;
-  background-color: #495061; }
-  .to-top .to-top-wrap {
-    height: 60px;
-    width: 70px;
-    position: absolute;
-    right: 0;
-    text-align: center; }
-    .to-top .to-top-wrap a {
-      display: block;
-      width: 100%;
-      height: 100%;
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.15); }
-    .to-top .to-top-wrap a:hover, .to-top .to-top-wrap a:focus {
-      background-color: rgba(0, 0, 0, 0.4); }
-    .to-top .to-top-wrap i {
-      font-size: 30px;
-      line-height: 55px; }
-  .to-top .row {
-    position: relative; }
+
+.row{
+	margin-bottom:50px;
+}
+
+
+
 
 /* ==========================================================================
 Footer
